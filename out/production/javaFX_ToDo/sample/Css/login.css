@@ -1,0 +1,15 @@
+.root{
+    -fx-background-color: #FE5014;
+}
+
+.mainPlace{
+    -fx-background-color: #202020;
+}
+
+.button_black{
+    -fx-background-color: #202020;
+}
+
+.button_orange{
+    -fx-background-color: #FE5014;
+}

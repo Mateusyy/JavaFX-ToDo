@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller.AddItemFormController">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="96.0" prefHeight="308.0" prefWidth="600.0" styleClass="mainPlace">
+      <children>
+        <TextField id="task" fx:id="taskText" layoutX="126.0" layoutY="62.0" prefHeight="59.0" prefWidth="349.0" promptText="Task" />
+        <TextField id="description" fx:id="descriptionText" layoutX="126.0" layoutY="147.0" prefHeight="59.0" prefWidth="349.0" promptText="Description" />
+        <Button fx:id="addButton" layoutX="246.0" layoutY="238.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="108.0" styleClass="button_orange" text="Add" textFill="WHITE">
+          <font>
+            <Font size="16.0" />
+          </font>
+          <stylesheets>
+            <URL value="@../Css/login.css" />
+          </stylesheets>
+        </Button>
+      </children>
+      <stylesheets>
+        <URL value="@../Css/login.css" />
+      </stylesheets>
+    </AnchorPane>
+    <Label alignment="CENTER" layoutX="220.0" layoutY="25.0" prefHeight="59.0" prefWidth="161.0" text="ADD TASK" textFill="WHITE">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Label>
+  </children>
+  <stylesheets>
+    <URL value="@../Css/login.css" />
+  </stylesheets>
+</AnchorPane>

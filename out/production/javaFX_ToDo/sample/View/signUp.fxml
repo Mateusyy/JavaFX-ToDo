@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller.SignUpController">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="100.0" prefHeight="308.0" prefWidth="700.0" styleClass="mainPlace">
+      <children>
+        <TextField fx:id="signUpFirstName" layoutX="159.0" layoutY="14.0" prefHeight="32.0" prefWidth="382.0" promptText="First Name" />
+        <TextField fx:id="signUpSecondName" layoutX="159.0" layoutY="57.0" prefHeight="32.0" prefWidth="382.0" promptText="Second Name" />
+        <TextField fx:id="signUpUsername" layoutX="159.0" layoutY="99.0" prefHeight="32.0" prefWidth="382.0" promptText="Username" />
+        <PasswordField fx:id="signUpPassword" layoutX="159.0" layoutY="143.0" prefHeight="32.0" prefWidth="382.0" promptText="Password" />
+        <TextField fx:id="signUpLocation" layoutX="159.0" layoutY="221.0" prefHeight="32.0" prefWidth="382.0" promptText="Location" />
+        <CheckBox fx:id="signUpMale" layoutX="276.0" layoutY="190.0" mnemonicParsing="false" selected="true" text="male" textFill="WHITE" underline="false" wrapText="false">
+          <font>
+            <Font size="16.0" fx:id="x1" />
+          </font>
+        </CheckBox>
+        <CheckBox fx:id="signUpFemale" font="$x1" layoutX="350.0" layoutY="190.0" mnemonicParsing="false" text="female" textFill="WHITE" underline="false" wrapText="false" />
+        <Button fx:id="signUpButton" font="$x1" layoutX="246.0" layoutY="268.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="209.0" styleClass="button_orange" text="Sign Up" textFill="WHITE">
+          <stylesheets>
+            <URL value="@../Css/login.css" />
+          </stylesheets>
+        </Button>
+      </children>
+      <stylesheets>
+        <URL value="@../Css/login.css" />
+      </stylesheets>
+    </AnchorPane>
+    <Label alignment="CENTER" layoutX="254.0" layoutY="25.0" prefHeight="55.0" prefWidth="192.0" text="Sign Up" textFill="WHITE">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Label>
+  </children>
+  <stylesheets>
+    <URL value="@../Css/login.css" />
+  </stylesheets>
+</AnchorPane>
